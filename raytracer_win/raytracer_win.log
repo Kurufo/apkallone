@@ -1,0 +1,21 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: El directorio Intermediate no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Intermediate.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+  SVO.cpp
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\Terrain.h(53,13): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  (compilando archivo de origen "../Raytracer/SVO.cpp")
+  
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(137,19): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(144,33): warning C4267: '=': conversión de 'size_t' a '_Ty'; posible pérdida de datos
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(144,33): warning C4267:         with
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(144,33): warning C4267:         [
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(144,33): warning C4267:             _Ty=int32_t
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(144,33): warning C4267:         ]
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(154,34): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(157,29): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(189,16): warning C4334: '<<': el resultado del desplazamiento de 32 bits se convirtió implícitamente en 64 bits (¿quería un desplazamiento de 64 bits?)
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(193,29): warning C4267: 'argumento': conversión de 'size_t' a 'const _Kty'; posible pérdida de datos
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(193,29): warning C4267:         with
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(193,29): warning C4267:         [
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(193,29): warning C4267:             _Kty=long
+C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\Raytracer\SVO.cpp(193,29): warning C4267:         ]
+  raytracer_win.vcxproj -> C:\Users\farre\Documents\Universidad\Investigacion\voxel-raytracer-main\raytracer_win\quem.exe
