@@ -3,6 +3,7 @@
 #include <vector>
 #include <iostream>
 #include <tuple>
+#include <string>
 
 using namespace std;
 
@@ -33,11 +34,14 @@ private:
 
   int countSetBits(int n);
 
+
+
 public:
 
   // Construye el SVDAG desde un archivo que ya tiene almacenado el vector de enteros
   //SVDAG(ifstream data_file); 
-  SVDAG(vector<int32_t> u,size_t v);
+  //SVDAG(vector<int32_t> u,size_t v);
+  SVDAG(string archivo);
 
   ~SVDAG() {};
   

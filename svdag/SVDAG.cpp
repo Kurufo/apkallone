@@ -2,8 +2,9 @@
 #include <functional>
 #include <iostream>
 #include <tuple>
-// #include <bitset>
+#include "SVO.h"
 #include <cstdint>
+#include <string>
 
 const float Epsilon = 0.0005;
 
@@ -11,12 +12,22 @@ using namespace std;
 
 
 
-SVDAG::SVDAG(vector<int32_t> u,size_t v ){
+/*SVDAG::SVDAG(vector<int32_t> u,size_t v ){
   svdag = u;
   //={161,4,5,5,256,129,8,9,512,768};
   RootSize = v;
-  //=4;
+  //=4; 
+
+}*/
+
+SVDAG::SVDAG(string archivo){
+    // const char* texto = archivo.c_str();
+    SVO* aux =  SVO::fromVox(archivo.c_str());
+    RootSize = aux->getSize();
+    vector<SVO::Material> basura;
+    aux->toSVDAG(svdag,basura);
 }
+
 
 int SVDAG::positionToIndex(const std::tuple<int,int,int>& position) {
     return get<0>(position) * 4 + get<1>(position) * 2 + get<2>(position);
