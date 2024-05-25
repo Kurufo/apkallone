@@ -1,2 +1,0 @@
-Estudiar funcionamiento del vector
-Ver implementacion del SVDAG 
